@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane fx:controller="se.lu.ics.controllers.AlphaTabController" xmlns:fx="http://javafx.com/fxml" style="-fx-background-color: #add8e6;">
+    <children>
+        <Label text="Alpha Tab" 
+            style="-fx-font-size: 36px; -fx-font-weight: bold;"
+            AnchorPane.topAnchor="180.0" 
+            AnchorPane.leftAnchor="300.0"/>
+        <Label text="Controller: se.lu.ics.controllers.AlphaTabController" 
+            style="-fx-font-size: 18px;"
+            AnchorPane.topAnchor="240.0" 
+            AnchorPane.leftAnchor="200.0"/>
+        <Button text="Alpha Button" 
+            onAction="#handleAlphaButtonClick"
+            AnchorPane.topAnchor="300.0" 
+            AnchorPane.leftAnchor="320.0"/>
+    </children>
+</AnchorPane>
