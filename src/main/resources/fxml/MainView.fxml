@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<TabPane fx:controller="se.lu.ics.controllers.MainViewController" xmlns:fx="http://javafx.com/fxml">
+<TabPane fx:id="tabPane" 
+        fx:controller="se.lu.ics.controllers.MainViewController" 
+        xmlns:fx="http://javafx.com/fxml">
     <tabs>
         <Tab text="Alpha Tab" closable="false">
             <fx:include source="AlphaTab.fxml"/>
